@@ -1,3 +1,3 @@
-require('./index.css')
+const {toUpper} = require('javascript-webpack-mjs-import-issue-demo--to-upper')
 
-document.write('The body should have a yellow background color now')
+console.log(`Hello, ${toUpper('webpack')}`);

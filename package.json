@@ -1,11 +1,21 @@
 {
   "scripts": {
-    "demo": "webpack && open index.html"
+    "demo": "webpack && node bundle.js"
+  },
+  "dependencies": {
+    "javascript-webpack-mjs-import-issue-demo--to-upper": "0.1.1"
   },
   "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.5",
+    "babel-preset-env": "1.7.0",
     "css-loader": "^0.23.1",
+    "karma": "3.1.1",
     "style-loader": "^0.13.1",
-    "webpack": "^4.17.1",
-    "webpack-cli": "^3.1.0"
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "karma-chrome-launcher": "2.2.0",
+    "karma-jasmine": "2.0.1",
+    "karma-webpack": "3.0.5"
   }
 }

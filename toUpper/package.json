@@ -1,0 +1,6 @@
+{
+  "name": "javascript-webpack-mjs-import-issue-demo--to-upper",
+  "version": "0.1.1",
+  "main": "index.js",
+  "module": "index.mjs"
+}
